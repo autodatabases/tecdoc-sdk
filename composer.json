@@ -1,0 +1,25 @@
+{
+  "name": "zwe1ch/tecdoc-sdk",
+  "description": "the tecdoc-sdk provides to interact with the tecdoc api",
+  "keywords": [
+    "tecdoc"
+  ],
+  "homepage": "http://github.com:zwe1ch/tecdoc-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rayk jackisch",
+      "email": "rayk@jackisch.net"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "jms/serializer": "^1.1"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "TecDoc\\": "src/"
+    }
+  }
+}
