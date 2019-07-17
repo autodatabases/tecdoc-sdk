@@ -16,7 +16,6 @@
     "guzzlehttp/guzzle": "~6.0",
     "jms/serializer": "^1.1"
   },
-  "minimum-stability": "dev",
   "autoload": {
     "psr-0": {
       "TecDoc\\": "src/"
